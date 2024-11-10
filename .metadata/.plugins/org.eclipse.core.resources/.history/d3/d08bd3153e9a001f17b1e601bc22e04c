@@ -1,0 +1,14 @@
+package Exercicios_Java;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio_Login_Usuario_Senha_Switch {
+	
+	public static void main(String[] args) {
+		
+		String login, senha;
+		
+		login = JOptionPane.showInputDialog("Login: ");
+	}
+
+}

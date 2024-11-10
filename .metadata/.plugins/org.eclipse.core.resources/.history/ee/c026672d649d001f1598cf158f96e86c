@@ -1,0 +1,30 @@
+package EstruturaDeRepeticao;
+
+
+public class For {
+	
+	  public static void main(String[] args) {
+		
+		/*int  resultado, numero;
+		numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
+		
+		for (int contador =1; contador <= 10; contador++){
+			
+			resultado = (contador * numero);
+			
+			System.out.println(numero + " x "+ contador + " = " + resultado);
+			*/
+		
+	String dataAuxiliar = "01/02/2024";
+	String resultado = dataAuxiliar.substring(3,5) 
+			+ dataAuxiliar.substring(6,10);
+	
+	System.out.println("Resultado= "+ resultado);
+	
+	int resultado2 = resultado.split("2").length;
+	System.out.println("RESULTADO2 = " + resultado2);
+	
+	String [] resultado3= resultado.split("2");
+}
+
+}
