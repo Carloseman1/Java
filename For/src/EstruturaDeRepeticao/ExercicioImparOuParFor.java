@@ -11,11 +11,11 @@ public class ExercicioImparOuParFor {
 
         numero = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite um número inteiro positivo maior que 1","Leia com atenção.", JOptionPane.QUESTION_MESSAGE));
 
-        for (int contador = 1; contador <= numero; contador ++){
+        for (int contador = 0; contador <= numero; contador ++){
 
            if (contador %2 == 1){
 
-            soma += contador;
+            soma = soma +  contador;
            }
            System.out.println(soma);
             
