@@ -1,7 +1,5 @@
 package EstruturaDeRepeticao;
 
-import javax.swing.JOptionPane;
-
 /*
  * 1. Soma de Números de 1 a N
 Escreva um programa que leia um número inteiro positivo n e calcule a soma de todos os números de 1 até n.
@@ -59,6 +57,7 @@ public class DesafiosPraticaDoFor {
          * 4. Tabuada de um Número
               Escreva um programa que leia um número inteiro n e exiba a tabuada de n de 1 a 10.
          */
+        /* 
         int numero, resultado;
 
         numero = Integer.parseInt(JOptionPane.showInputDialog(null,"Valor: ", "TABUADA", JOptionPane.QUESTION_MESSAGE));
@@ -69,8 +68,15 @@ public class DesafiosPraticaDoFor {
 
             System.out.println(numero + " x " + i + " = " + resultado);
 
-        }
+        }*/
 
+        /*
+         * 5. Soma de Números Ímpares em um Intervalo
+              Peça ao usuário dois números inteiros a e b, e exiba a soma de todos os números ímpares entre a e b (inclusive).
+         */
+
+         
+         
     
         
     }
